@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tales_of_alrune:item/raw_sapphire"
+  }
+}

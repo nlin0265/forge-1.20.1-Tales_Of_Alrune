@@ -1,4 +1,4 @@
-package net.CreeperNinja265.talesofalrune;
+package net.CreeperNinja265.tales_of_alrune;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
