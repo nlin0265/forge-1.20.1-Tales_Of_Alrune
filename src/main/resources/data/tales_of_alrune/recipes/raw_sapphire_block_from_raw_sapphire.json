@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tales_of_alrune:raw_sapphire"
+    }
+  },
+  "result": {
+    "item": "tales_of_alrune:raw_sapphire_block"
+  }
+}
