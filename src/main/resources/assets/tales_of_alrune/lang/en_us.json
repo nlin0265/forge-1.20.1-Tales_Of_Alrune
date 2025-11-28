@@ -1,5 +1,10 @@
 {
+
   "item.tales_of_alrune.sapphire": "Sapphire",
   "item.tales_of_alrune.raw_sapphire": "Raw Sapphire",
+
+  "block.tales_of_alrune.sapphire_block" : "Block of Sapphire",
+  "block.tales_of_alrune.raw_sapphire_block" : "Block of Raw Sapphire",
+
   "creativetab.alrune_tab": "Sapphire Tutorial Tab"
 }

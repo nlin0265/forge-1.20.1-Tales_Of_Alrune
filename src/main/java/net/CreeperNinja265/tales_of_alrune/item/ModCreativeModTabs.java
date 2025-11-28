@@ -1,6 +1,7 @@
 package net.CreeperNinja265.tales_of_alrune.item;
 
 import net.CreeperNinja265.tales_of_alrune.TalesOfAlrune;
+import net.CreeperNinja265.tales_of_alrune.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,9 +22,13 @@ public class ModCreativeModTabs {
             CREATIVE_MODE_TABS.register("alrune_tab", () -> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.alrune_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        //Items
                         output.accept(ModItems.RAW_SAPPHIRE.get());
                         output.accept(ModItems.SAPPHIRE.get());
-                        output.accept(Items.DIAMOND);
+
+                        //Blocks
+                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                     })
             .build());
     public static void register(IEventBus eventBus) {

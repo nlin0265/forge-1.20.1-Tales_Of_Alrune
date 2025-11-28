@@ -1,6 +1,7 @@
 package net.CreeperNinja265.tales_of_alrune;
 
 import com.mojang.logging.LogUtils;
+import net.CreeperNinja265.tales_of_alrune.block.ModBlocks;
 import net.CreeperNinja265.tales_of_alrune.item.ModCreativeModTabs;
 import net.CreeperNinja265.tales_of_alrune.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class TalesOfAlrune
 
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
