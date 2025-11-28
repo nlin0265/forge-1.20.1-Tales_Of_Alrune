@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  I",
+    "RI ",
+    "XR "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "tales_of_alrune:ruby_block"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "tales_of_alrune:rekka"
+  }
+}

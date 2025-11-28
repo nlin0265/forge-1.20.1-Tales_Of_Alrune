@@ -57,10 +57,7 @@ public class TalesOfAlrune
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPPHIRE);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

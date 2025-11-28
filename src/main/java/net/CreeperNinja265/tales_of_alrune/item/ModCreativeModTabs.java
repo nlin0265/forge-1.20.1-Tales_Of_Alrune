@@ -25,10 +25,15 @@ public class ModCreativeModTabs {
                         //Items
                         output.accept(ModItems.RAW_SAPPHIRE.get());
                         output.accept(ModItems.SAPPHIRE.get());
+                        output.accept(ModItems.RUBY.get());
 
                         //Blocks
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_BLOCK.get());
+
+                        //Weapons
+                        output.accept(ModItems.REKKA.get());
                     })
             .build());
     public static void register(IEventBus eventBus) {

@@ -2,9 +2,12 @@
 
   "item.tales_of_alrune.sapphire": "Sapphire",
   "item.tales_of_alrune.raw_sapphire": "Raw Sapphire",
+  "item.tales_of_alrune.ruby": "Ruby",
 
   "block.tales_of_alrune.sapphire_block" : "Block of Sapphire",
   "block.tales_of_alrune.raw_sapphire_block" : "Block of Raw Sapphire",
+  "block.tales_of_alrune.ruby_block" : "Block of Ruby",
 
+  "item.tales_of_alrune.rekka": "Rekka, Seiken of Flames",
   "creativetab.alrune_tab": "Sapphire Tutorial Tab"
 }

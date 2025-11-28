@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tales_of_alrune:ruby"
+    }
+  },
+  "result": {
+    "item": "tales_of_alrune:ruby_block"
+  }
+}
