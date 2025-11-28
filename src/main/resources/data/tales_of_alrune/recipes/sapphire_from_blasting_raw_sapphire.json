@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "sapphire",
+  "ingredient": {
+    "item": "tales_of_alrune:raw_sapphire"
+  },
+  "result": "tales_of_alrune:sapphire"
+}

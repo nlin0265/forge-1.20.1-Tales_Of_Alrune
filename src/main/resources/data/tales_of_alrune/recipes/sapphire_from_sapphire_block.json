@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tales_of_alrune:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "tales_of_alrune:sapphire",
+    "count": 9
+  }
+}
