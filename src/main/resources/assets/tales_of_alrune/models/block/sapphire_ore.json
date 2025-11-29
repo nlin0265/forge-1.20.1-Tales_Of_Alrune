@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tales_of_alrune:block/sapphire_ore"
+  }
+}

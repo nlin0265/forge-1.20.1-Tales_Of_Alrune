@@ -24,6 +24,16 @@ public class ModItems
     public static final RegistryObject<Item> REKKA =
             ITEMS.register("rekka", ()->new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item>  TILSTONITE_FIRE = ITEMS.register("tilstonite_fire",
+            () ->new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item>  TILSTONITE_AQUA = ITEMS.register("tilstonite_aqua",
+            () ->new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item>  TILSTONITE_LIGHTNING = ITEMS.register("tilstonite_lightning",
+            () ->new Item(new Item.Properties()));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

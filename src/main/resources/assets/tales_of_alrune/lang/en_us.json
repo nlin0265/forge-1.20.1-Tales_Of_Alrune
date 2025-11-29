@@ -3,11 +3,20 @@
   "item.tales_of_alrune.sapphire": "Sapphire",
   "item.tales_of_alrune.raw_sapphire": "Raw Sapphire",
   "item.tales_of_alrune.ruby": "Ruby",
+  "item.tales_of_alrune.tilstonite_aqua": "Shard of Tilstonite (Aqua)",
+  "item.tales_of_alrune.tilstonite_fire": "Shard of Tilstonite (Fire)",
+  "item.tales_of_alrune.tilstonite_lightning": "Shard of Tilstonite (Lightning)",
+
 
   "block.tales_of_alrune.sapphire_block" : "Block of Sapphire",
   "block.tales_of_alrune.raw_sapphire_block" : "Block of Raw Sapphire",
   "block.tales_of_alrune.ruby_block" : "Block of Ruby",
 
+  "block.tales_of_alrune.sapphire_ore" : "Sapphire Ore",
+  "block.tales_of_alrune.deepslate_sapphire_ore" : "Deepslate Sapphire Ore",
+  "block.tales_of_alrune.nether_sapphire_ore" : "Nether Sapphire Ore",
+  "block.tales_of_alrune.end_stone_sapphire_ore" : "Endstone Sapphire Ore",
+
   "item.tales_of_alrune.rekka": "Rekka, Seiken of Flames",
-  "creativetab.alrune_tab": "Sapphire Tutorial Tab"
+  "creativetab.alrune_tab": "Items of Alrune"
 }

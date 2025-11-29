@@ -19,15 +19,25 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TalesOfAlrune.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> ALRUNE_TAB =
-            CREATIVE_MODE_TABS.register("alrune_tab", () -> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.SAPPHIRE.get()))
+            CREATIVE_MODE_TABS.register("alrune_tab", () ->
+                    CreativeModeTab.builder().icon(()->new ItemStack(ModItems.TILSTONITE_LIGHTNING.get()))
                     .title(Component.translatable("creativetab.alrune_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //Items
+
                         output.accept(ModItems.RAW_SAPPHIRE.get());
                         output.accept(ModItems.SAPPHIRE.get());
                         output.accept(ModItems.RUBY.get());
+                        output.accept(ModItems.TILSTONITE_AQUA.get());
+                        output.accept(ModItems.TILSTONITE_FIRE.get());
+                        output.accept(ModItems.TILSTONITE_LIGHTNING.get());
+
 
                         //Blocks
+                        output.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RUBY_BLOCK.get());
