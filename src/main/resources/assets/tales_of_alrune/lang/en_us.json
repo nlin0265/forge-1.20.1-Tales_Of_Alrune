@@ -6,7 +6,9 @@
   "item.tales_of_alrune.tilstonite_aqua": "Shard of Tilstonite (Aqua)",
   "item.tales_of_alrune.tilstonite_fire": "Shard of Tilstonite (Fire)",
   "item.tales_of_alrune.tilstonite_lightning": "Shard of Tilstonite (Lightning)",
-
+  "item.tales_of_alrune.tilstonite_pure": "Shard of Tilstonite (Pure)",
+  "item.tales_of_alrune.bottle_of_aeos": "Bottle of Aeos",
+  "item.tales_of_alrune.metal_detector": "Metal Detector",
 
   "block.tales_of_alrune.sapphire_block" : "Block of Sapphire",
   "block.tales_of_alrune.raw_sapphire_block" : "Block of Raw Sapphire",
@@ -18,5 +20,7 @@
   "block.tales_of_alrune.end_stone_sapphire_ore" : "Endstone Sapphire Ore",
 
   "item.tales_of_alrune.rekka": "Rekka, Seiken of Flames",
-  "creativetab.alrune_tab": "Items of Alrune"
+  "creativetab.alrune_tab": "Items of Alrune",
+
+  "item.tales_of_alrune.metal_detector.no_valuables": "No valuables found"
 }

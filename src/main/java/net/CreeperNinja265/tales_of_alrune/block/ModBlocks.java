@@ -27,8 +27,18 @@ public class ModBlocks {
         registerBlockItem(name, toReturn);
         return toReturn;
     }
-    public static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+    private static <T extends Block> RegistryObject<T> registerFireResistantBlock(String name, Supplier<T> block) {
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerFireResistantBlockItem(name, toReturn);
+        return toReturn;
+    }
+    private static <T extends Block> void
+    registerFireResistantBlockItem(String name, Supplier<T> block) {
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().fireResistant()));
+    }
+
+    public static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus) {

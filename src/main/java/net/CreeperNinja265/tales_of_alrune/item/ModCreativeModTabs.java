@@ -31,6 +31,9 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.TILSTONITE_AQUA.get());
                         output.accept(ModItems.TILSTONITE_FIRE.get());
                         output.accept(ModItems.TILSTONITE_LIGHTNING.get());
+                        output.accept(ModItems.TILSTONITE_PURE.get());
+                        output.accept(ModItems.BOTTLE_OF_AEOS.get());
+                        output.accept(ModItems.METAL_DETECTOR.get());
 
 
                         //Blocks
