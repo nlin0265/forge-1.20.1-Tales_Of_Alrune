@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tales_of_alrune:nail"
+    }
+  },
+  "result": {
+    "item": "tales_of_alrune:bunch_of_nails"
+  }
+}

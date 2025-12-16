@@ -9,6 +9,12 @@
   "item.tales_of_alrune.tilstonite_pure": "Shard of Tilstonite (Pure)",
   "item.tales_of_alrune.bottle_of_aeos": "Bottle of Aeos",
   "item.tales_of_alrune.metal_detector": "Metal Detector",
+  "item.tales_of_alrune.monster_energy": "Can of Monster",
+  "item.tales_of_alrune.redbull": "Can of Redbull",
+  "item.tales_of_alrune.port_ale": "Bottle of Port Ale",
+  "item.tales_of_alrune.mark_the_fish": "Mark",
+  "item.tales_of_alrune.nail": "Nail",
+  "item.tales_of_alrune.bunch_of_nails": "Bunch of Nails",
 
   "block.tales_of_alrune.sapphire_block" : "Block of Sapphire",
   "block.tales_of_alrune.raw_sapphire_block" : "Block of Raw Sapphire",
@@ -18,6 +24,7 @@
   "block.tales_of_alrune.deepslate_sapphire_ore" : "Deepslate Sapphire Ore",
   "block.tales_of_alrune.nether_sapphire_ore" : "Nether Sapphire Ore",
   "block.tales_of_alrune.end_stone_sapphire_ore" : "Endstone Sapphire Ore",
+  "block.tales_of_alrune.ruby_ore" : "Ruby Ore",
 
   "item.tales_of_alrune.rekka": "Rekka, Seiken of Flames",
   "creativetab.alrune_tab": "Items of Alrune",

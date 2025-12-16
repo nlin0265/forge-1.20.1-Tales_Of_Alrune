@@ -34,6 +34,12 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.TILSTONITE_PURE.get());
                         output.accept(ModItems.BOTTLE_OF_AEOS.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModItems.NAIL.get());
+                        output.accept(ModItems.BUNCH_OF_NAILS.get());
+                        output.accept(ModItems.MARK_THE_FISH.get());
+                        output.accept(ModItems.REDBULL.get());
+                        output.accept(ModItems.MONSTER_ENERGY.get());
+                        output.accept(ModItems.PORT_ALE.get());
 
 
                         //Blocks
@@ -44,6 +50,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_ORE.get());
 
                         //Weapons
                         output.accept(ModItems.REKKA.get());

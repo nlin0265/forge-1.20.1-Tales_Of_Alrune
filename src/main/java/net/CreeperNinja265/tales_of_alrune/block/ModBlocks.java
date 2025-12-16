@@ -66,6 +66,10 @@ public class ModBlocks {
             ()->new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)) );
 
+    public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
+            ()->new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)) );
+
     public static final RegistryObject<Block> RUBY_BLOCK =
             registerBlock("ruby_block", ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
 }
